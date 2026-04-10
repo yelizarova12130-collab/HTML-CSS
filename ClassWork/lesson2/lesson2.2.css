@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+IE:wght@100..400&family=Sekuya&display=swap');
+/*p{*/
+/*  font-family: Avenir;*/
+
+/*}*/
+.sekuya-regular {
+    font-family: "Sekuya", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+.playwrite-ie-400 {
+    font-family: "Playwrite IE", cursive;
+    /*font-optical-sizing: auto;*/
+    /*font-weight: 400;*/
+    /*font-style: normal;*/
+}
