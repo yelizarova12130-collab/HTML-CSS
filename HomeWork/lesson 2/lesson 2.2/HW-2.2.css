@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+}
+.block{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+.flex{
+    height: 200px;
+    background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.block:hover{
+    background-color: darkgray;
+    border-radius: 50%;
+}
