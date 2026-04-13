@@ -1,0 +1,35 @@
+.wrapper{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.item a{
+    text-decoration: none;
+    color: white;
+}
+.item{
+    width: 200px;
+    height: 200px;
+    background: radial-gradient(circle,rgba(153, 103, 123, 1) 0%, rgba(148, 187, 233, 1) 100%);
+    box-shadow: inset 10px 10px 5px 0px rgba(217,182,217,1);
+    border-radius: 50%;
+    border: 3px solid rgb(148, 187, 233);
+    transition: 1s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.item:hover{
+    border-radius: 0;
+    border: 4px dotted rgb(217,182,217);
+    transition: 3s;
+    /*width: 400px;*/
+    /*height: 400px;*/
+    transform: scale(1.1);
+}
+.item:hover a{
+    color: aqua;
+}
