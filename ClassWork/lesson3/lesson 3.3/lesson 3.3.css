@@ -1,0 +1,7 @@
+/*Якщо ми хочеми змінити вигляд маркерів та нумерацію*/
+ul{
+list-style-type: georgian;
+}
+ol{
+list-style-type: upper-alpha;
+}
