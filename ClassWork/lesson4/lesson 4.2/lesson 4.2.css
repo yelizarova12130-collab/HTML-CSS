@@ -1,0 +1,9 @@
+.regtangle{
+    border: 10px solid #000;
+    border-radius: 50px;
+    width: 400px;
+    height: 400px;
+    box-shadow: 0 4px 4px 0 rgba(229, 161, 161, 0.25);
+    background: #bb2626;
+    margin: 198px auto 0 auto;
+}
