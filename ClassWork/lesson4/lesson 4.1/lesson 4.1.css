@@ -2,3 +2,9 @@
 video{
     width: 70%;
 }
+
+iframe{
+    width: 50vw;
+    height: 50vw;
+    border: 10px solid deeppink;
+}
