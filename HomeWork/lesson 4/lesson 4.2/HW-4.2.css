@@ -1,14 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 *{
     margin: 0;
 }
 
+p{
+    font-family: "Inter", sans-serif;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
 header{
     height: 20vh;
     background: #8D8484;
+
 }
 
 main{
     display: flex;
+    color: #FFF;
 }
 .section-left{
     width: 73vw;
@@ -44,4 +54,10 @@ main{
 footer{
     height: 20vh;
     background: #BDBDBD;
+}
+
+header, div, footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
