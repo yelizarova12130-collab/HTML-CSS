@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+}
+
+header{
+    height: 20vh;
+    background: #8D8484;
+}
+
+main{
+    display: flex;
+}
+.section-left{
+    width: 73vw;
+}
+.upper{
+    height: 20vh;
+    background: #776969;
+}
+.middle{
+    height: 20vh;
+    background: #643030;
+}
+.lower{
+    height: 20vh;
+    background: #441818;
+}
+
+.section-rights{
+    width: 27vw;
+    height: 60vh;
+}
+.top{
+    width: 100%;
+    height: 50%;
+    background: #937575;
+}
+.bottom{
+    width: 100%;
+    height: 50%;
+    background: #644C4C;
+}
+
+footer{
+    height: 20vh;
+    background: #BDBDBD;
+}
