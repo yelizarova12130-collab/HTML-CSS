@@ -1,0 +1,52 @@
+.pink-box{
+    width: 200px;
+    height: 200px;
+    margin: 100px auto 0 auto;
+    background-color: pink;
+    animation: lorem 5s linear  infinite alternate;
+}
+/******************Lesson 5.2********************/
+@keyframes lorem {
+/*    from{*/
+/*        !*transform: scale(1.5) rotate(60deg);*!*/
+/*        transform: skew(40deg);*/
+/*    }*/
+/*    40%{*/
+/*        border-radius: 20%;*/
+/*    !*transform: rotate(-60deg);*!*/
+/*    }*/
+/*    50%{*/
+
+/*    }*/
+/*    to{*/
+/*        !*transform: scale(1) rotate(0deg);*!*/
+/*        transform: skew(0deg);*/
+/*        background-color: yellow;*/
+/*    }*/
+/*    */
+/*}*/
+
+/**********************lesson 5.3************************/
+
+    from{
+        /*Розширюється в напрямку осі*/
+            /*transform: scale(1,2);*/
+
+            /*transform: scaleX(2);*/
+            /*transform: scaleY(2);*/
+
+        /*Обираємо кут нахилу*/
+            /*transform: skewX(40deg);*/
+            /*transform: skewY(40deg);*/
+
+        /*переміщаємо обьєкт*/
+        /*transform: translateX(300px); Ліва сторона*/
+        /*transform: translateX(-300px); Права сторона*/
+        /*transform: translateY(-300px); Зверху*/
+        /*transform: translateY(300px); Знизу*/
+        transform: translate( -300px,-300px);
+    }
+    to{
+        background-color: #5454D4;
+    }
+}
