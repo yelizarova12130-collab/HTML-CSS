@@ -53,22 +53,22 @@
         transform: translate(-450px, 30px);
     }
     50%{
-        transform: translate(-600px,35px);
+        transform: translate(-600px,45px);
     }
     60%{
-        transform: translate(-750px,45px);
+        transform: translate(-750px,65px);
     }
     70%{
-        transform: translate(-900px,55px);
+        transform: translate(-900px,80px);
     }
     80%{
-        transform: translate(-1050px,70px);
+        transform: translate(-1050px,95px);
     }
     90%{
-        transform: translate(-1200px,85px);
+        transform: translate(-1200px,100px);
     }
     to{
-        transform: translate(-1450px,100px);
+        transform: translate(-1450px,115px);
     }
 }
 
