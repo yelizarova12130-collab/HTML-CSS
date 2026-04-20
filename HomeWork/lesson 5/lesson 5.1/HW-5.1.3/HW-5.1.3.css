@@ -18,7 +18,7 @@
 }
 .airplane{
     align-self: flex-end;
-    animation: loader 7s infinite  linear;
+    animation: loader 5s infinite  linear;
 
 }
 .cloud-bottom{
@@ -38,37 +38,13 @@
 }
 @keyframes loader {
     from{
-        transform: translate(100px,-100px);
-    }
-    10%{
-        transform: translate(0,-50px);
-    }
-    20%{
-        transform: translate(-150px, 0);
-    }
-    30%{
-        transform: translate(-300px,15px);
-    }
-    40%{
-        transform: translate(-450px, 30px);
+        transform: translate(0, -300px) ;
     }
     50%{
-        transform: translate(-600px,45px);
-    }
-    60%{
-        transform: translate(-750px,65px);
-    }
-    70%{
-        transform: translate(-900px,80px);
-    }
-    80%{
-        transform: translate(-1050px,95px);
-    }
-    90%{
-        transform: translate(-1200px,100px);
+        transform: translate(-600px,-100px) scale(1.2);
     }
     to{
-        transform: translate(-1450px,115px);
+        transform: translate(-1200px,100px) scale(1.5);
     }
 }
 
