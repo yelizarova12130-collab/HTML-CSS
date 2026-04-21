@@ -1,0 +1,39 @@
+
+div :last-child{
+    color: red;
+}
+/*div :first-child{*/
+/*    color: red;*/
+/*}*/
+
+/*div p::first-line{*/
+/*    color: chocolate;*/
+/*    font-size: 20px;*/
+/*}*/
+
+div p:last-of-type{
+    color: chocolate;
+}
+
+
+/*
+first-child - обрати дільки перший дочірній елемент
+last-child - останній дочірній елемент
+Стилізувати елементи за типами
+last-of-type - застосовувати стилізацію тільки до конкретного типу елементівю
+застилізувати конкретний елемент(перша літера або перша лінія)-псевдоклас
+*/
+
+ul li:nth-child(even){
+    color: blue;
+}
+
+/*
+починаючи зверху(nth-child)
+починаючи знизу(nth-last-child)
+(2n) кожен другий
+(2n+6)починаючи з 6 кожен другий
+(even)парні
+(odd)непарні
+
+*/
