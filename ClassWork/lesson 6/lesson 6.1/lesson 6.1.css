@@ -1,0 +1,28 @@
+
+/*
+Основні селектори
+10006-inline (ту стилізацию яку ми прописуємо вбудовану прямо в середині тегу)
+1006 - id
+106 - class
+16 - tag
+*/
+
+body p.lorem{
+    color: crimson;
+}
+p.text{
+    color: blue;
+}
+p{
+    color: coral;
+}
+section p.lorem{
+    color: cyan;
+}
+section div p.text{
+    color: coral;
+}
+
+section div.box p.text{
+    color: pink;
+}
