@@ -1,0 +1,34 @@
+
+/*при наведенні*/
+button:hover {
+    background-color: blue;
+}
+
+/*при кліці*/
+button:active {
+    background-color: #9F3919;
+}
+
+/*посилання ще не відвідані*/
+a:link {
+    text-decoration: none;
+    color: #D1EF53;
+}
+
+/* після того як відвідали посилання*/
+a:visited {
+    color: black;
+}
+
+li{
+    color: #FF7143;
+}
+li::marker {
+    color: #2c2c2c;
+}
+
+p::selection {
+    background-color: #9F3919;
+    color: white;
+}
+
