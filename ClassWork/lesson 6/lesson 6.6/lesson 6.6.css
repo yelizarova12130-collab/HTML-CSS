@@ -1,0 +1,13 @@
+label{
+    display: block;
+    margin-top: 10px;
+}
+form sup{
+    color: #9F3919;
+}
+
+textarea{
+/* матиме можливість зміни розміру або навпаки заблокувати */
+    resize: none;
+    width: 140px;
+}
