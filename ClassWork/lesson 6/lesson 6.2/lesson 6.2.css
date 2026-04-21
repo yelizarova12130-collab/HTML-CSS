@@ -1,0 +1,10 @@
+h1~p{
+    color: red;
+}
+
+ h1~p{
+     color: chocolate;
+ }
+div>div>p{
+    color: cornflowerblue;
+}
