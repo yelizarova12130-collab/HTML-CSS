@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>focus placeholder</title>
+  <link rel="stylesheet" href="lesson 6.7.css">
+</head>
+<body>
+<form class="form-registration">
+  <label for="name">Введіть своє імья</label>
+  <input type="text" name="name" id="name"  placeholder="Valeriia" required> <sup>*</sup>
+
+  <label for="name">Введіть свій email</label>
+  <input type="email" name="email" id="email"  placeholder="example@gmail.com" required> <sup>*</sup>
+
+  <label for="name">Введіть свій password</label>
+  <input type="password" name="password" id="password"  placeholder="qwerty" required> <sup>*</sup>
+
+  <label for="name">Введіть свій вік</label>
+  <input type="number" name="age" id="age" min="18" max="100">
+
+  <input type="file" name="age">
+
+  <label>Стать</label>
+  <label><input type="radio" name="gender" value="male"> Чоловік</label>
+  <label><input type="radio" name="gender" value="female"> Жінка</label>
+
+  <label>
+    <input type="checkbox" name="newsletter" > підписатись на новини
+  </label>
+
+  <label for="lorem">Країна</label>
+  <select id="lorem">
+    <option value="">Оберіть країну</option>
+    <option value="ua">Україна</option>
+    <option value="usa">США</option>
+    <option value="ca">Канада</option>
+    <option value="uk">Великобританія</option>
+  </select>
+
+  <label for="phone"></label>
+  <select id="phone">
+    <optgroup label="Apple">
+      <option value="x">Apple X</option>
+      <option value="xr">Apple XR</option>
+      <option value="xs"> Apple XS</option>
+    </optgroup>
+    <optgroup label="Samsung">
+      <option value="x">Apple X</option>
+      <option value="xr">Apple XR</option>
+      <option value="xs"> Apple XS</option>
+    </optgroup>
+  </select>
+
+  <label for="comment">
+    <textarea id="comment" rows="4" cols="30" ></textarea>
+    <!--
+         rows-кількість рядочків
+         cols-кількість символів
+    -->
+  </label>
+
+  <!--Відправити-->
+
+  <div>
+    <input type="submit" value="надіслати">
+    <input type="reset" value="скинути">
+  </div>
+</form>
+</body>
+</html>
