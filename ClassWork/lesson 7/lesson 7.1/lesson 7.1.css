@@ -1,0 +1,11 @@
+.item{
+    width: 200px;
+    height: 200px;
+    background-color: pink;
+    position: relative;
+    bottom: 100px;
+    z-index: -1;
+}
+/*бачимо елементи як вони позначаються у потоці html докумета
+    (не можемо використовувати нашаровування компонентів(z-індексу))*/
+/*position: static;*/
