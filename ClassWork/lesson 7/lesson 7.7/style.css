@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+body h2{
+    text-align: center;
+    color: #142823;
+    font-family: "Inter", sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 128px;
+    padding: 36px 0;
+}
+
+.card{
+    width: 245px;
+    height: 291px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 32px;
+    background:  #FFF;
+    box-shadow: 0 4px 20px 0 rgba(139, 139, 139, 0.10);
+    position: relative;
+}
+
+.highly-rated{
+    position: absolute;
+    top: -30px;
+}
+
+.blue-price{
+    color:  #106FDF;
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.red-price{
+    color: #DD152D;
+    font-family: "Inter", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.title-card{
+    color:  #282828;
+    text-align: center;
+    font-family: Inter, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
