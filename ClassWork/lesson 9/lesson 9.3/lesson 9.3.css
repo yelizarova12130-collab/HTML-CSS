@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+}
+
+.wrapper{
+    display: grid;
+    height: 100vh;
+    background-color: #441818;
+    grid-template-columns: repeat(4, 300px);
+    grid-template-rows: repeat(2, 300px);
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.wrapper img{
+    width: 250px;
+    height: 200px;
+}
