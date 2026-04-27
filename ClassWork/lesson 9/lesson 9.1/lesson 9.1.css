@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+}
+.wrapper{
+    height: 100vh;
+    display: grid;
+    background-color: green;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr 2fr 1fr;
+    gap: 50px;
+}
+
+.items{
+    background-color: #8E88C1;
+    border: 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper div:nth-child(5){
+    background-color: grey;
+}
