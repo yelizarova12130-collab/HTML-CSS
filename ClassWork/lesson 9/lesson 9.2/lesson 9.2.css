@@ -1,0 +1,22 @@
+.grid-conteiner{
+    display: grid;
+    height: 400px;
+    background-color: grey;
+    border: 1px solid black;
+    grid-template-columns: repeat(3,100px);
+    grid-template-rows: repeat(2,100px);
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
+.item{
+    padding: 30px;
+    background-color: hotpink;
+    text-align: center;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
