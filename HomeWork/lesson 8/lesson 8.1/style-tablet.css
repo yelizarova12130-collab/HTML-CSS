@@ -1,0 +1,11 @@
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .items{
+        width: 720px;
+        height: 590px;
+        margin: 32px 24px;
+    }
+    .item{
+        width: 218px;
+        height: 263px;
+    }
+}

@@ -1,0 +1,12 @@
+@media screen and (max-width: 480px ) {
+    .items{
+        width: 375px;
+        margin: 32px 16px;
+        gap: 40px;
+    }
+    .item{
+        width: 343px;
+        margin-bottom: 0;
+    }
+
+}

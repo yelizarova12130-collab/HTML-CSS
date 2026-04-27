@@ -1,0 +1,21 @@
+@media screen  and (max-width: 480px){
+    .container{
+        display: flex;
+        width: 375px;
+        padding: 32px 16px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 32px;
+    }
+    .icons{
+        width: 343px;
+        height: 220px;
+    }
+    .icons img{
+        width: 128px;
+        height: 128px;
+    }
+    .icons h3{
+        margin: 16px 0 8px 0;
+    }
+}

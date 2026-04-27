@@ -1,0 +1,35 @@
+*{
+    font-family: "Inter", sans-serif;
+}
+.container{
+    display: flex;
+    width: 1344px;
+    padding: 64px 0;
+    justify-content: center;
+    align-items: center;
+    background:  #F3F5F6;
+    gap: 32px;
+}
+
+.icons{
+    width: 271px;
+}
+
+
+.icons h3{
+    color: #161543;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 24px */
+    margin: 20px 0 10px 0;
+}
+
+.icons p{
+    align-self: stretch;
+    color: #7687A1;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 22.4px */
+}
