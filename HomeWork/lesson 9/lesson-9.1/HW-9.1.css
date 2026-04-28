@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+}
+
+.grid{
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 20vh 60vh 20vh;
+}
+
+header,footer{
+   background-color: #D9D9D9;;
+}
+
+main{
+    background: #A4A4A4;
+
+}
+
